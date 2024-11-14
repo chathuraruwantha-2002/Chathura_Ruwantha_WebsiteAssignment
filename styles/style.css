@@ -1,0 +1,107 @@
+
+.video-background {
+    position: fixed;             
+    top: 0;                      
+    left: 0;                     
+    width: 100%;                 
+    height: 100%;                
+    object-fit: cover;           
+    z-index: -1;                 
+    margin: 0;            
+}
+
+.container {
+    position: relative;          
+    z-index: 1;                  
+    color: white;                
+    text-align: center;          
+    padding-bottom: 50px;        
+    margin-top: 0;
+    flex: 1; 
+}
+
+
+.video-round {
+    border-radius: 15px;         
+    width: 80%;                   
+    height: auto;                 
+    object-fit: cover;            
+    margin: 30px auto;            
+    display: block;               
+}
+
+
+#styled-table {
+    width: 80%;                   
+    margin: 0 auto;               
+    color: white;                 
+    padding: 0;                   
+    margin-top: 0;                
+    margin-bottom: 0;             
+}
+
+#styled-table table {
+    width: 100%;                  
+    border-collapse: collapse;    
+    background-color: rgb(82, 75, 75); 
+    margin: 0;                    
+}
+
+#styled-table th, #styled-table td {
+    border: 1px solid #666666;    
+    padding: 8px;                  
+    text-align: left;              
+}
+
+#styled-table th {
+    background-color: #535c5c;    
+    font-weight: bold;             
+}
+
+#styled-table .title {
+    background-color: #282c2c;  
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+footer {
+    position: relative;               
+    z-index: 10;                      
+    background-color: #1d1f1f;        
+    width: 100%;                       
+    padding: 20px 0;                   
+    text-align: center;                
+    margin-top: 0;                     
+}
+
+
+body, html {
+    margin: 0;                         
+    padding: 0;                        
+    height: 100%;                       
+}
+
+body {
+    display: flex;                         
+    flex-direction: column;                       
+    justify-content: space-between;
+}
+
+img {
+    margin: 0;
+}
+
+.img-hover-zoom {
+    transition: transform 0.3s ease;  
+}
+
+.img-hover-zoom:hover {
+    transform: scale(1.1);            
+}
+.custom-card {
+    background-color: transparent;
+}
+
